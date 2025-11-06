@@ -1,17 +1,12 @@
 {
   "name": "keepalive-netlib",
   "version": "1.0.0",
-  "description": "Netlib keepalive",
-  "main": "index.js",
+  "main": "login.js",
   "scripts": {
-    "start": "node index.js",
-    "install-browsers": "npx playwright install chromium"
+    "start": "node login.js"
   },
   "dependencies": {
     "axios": "latest",
-    "playwright": "^1.40.0"
-  },
-  "engines": {
-    "node": ">=16.0.0"
+    "playwright": "latest"
   }
 }
